@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "text": "Listen to vaporwave",
+      "done": false,
+      "id": 1
+    },
+    {
+      "text": "Perm my hair",
+      "done": false,
+      "id": 2
+    },
+    {
+      "text": "Hack the future",
+      "done": false,
+      "id": 3
+    }
+  ]
+}

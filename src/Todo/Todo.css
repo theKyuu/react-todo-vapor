@@ -1,0 +1,34 @@
+.todo-row {
+    background-color: rgba(255, 255, 255, 0.80);
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 6px #fdf85e;
+}
+.todo-row.done {
+    background-color: rgba(255, 255, 255, 0.50);
+    text-decoration: line-through;
+}
+.todo-text {
+    overflow-wrap: anywhere;
+    margin-right: 0.1rem;
+}
+.todo-options {
+    min-width: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-button {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #9e0575;
+    -webkit-mask: url('../../public/delete.svg') no-repeat 50% 50%;
+    mask: url('../../public/delete.svg') no-repeat 50% 50%;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #43003c;
+}

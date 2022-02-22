@@ -1,0 +1,23 @@
+.input-form {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    font-size: medium;
+    font-weight: bold;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    border: none;
+    background: #fe1497;
+    color: white;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #53009f;
+}
+.submit-button:hover {
+    text-shadow: 0px 0px 3px #fff;
+}
+.submit-button:active {
+    background: #ca0374;
+}
